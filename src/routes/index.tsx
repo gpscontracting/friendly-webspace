@@ -4,11 +4,11 @@ import { QuoteForm } from "@/components/site/QuoteForm";
 import heroPanel from "@/assets/20250505_113833.jpg.asset.json";
 import photoDriver from "@/assets/20250917_085444.jpg.asset.json";
 import photoMachine from "@/assets/20240712_085607.jpg.asset.json";
-import photoRun from "@/assets/20250419_151726.jpg.asset.json";
-import photoGate from "@/assets/20250615_090219.jpg.asset.json";
-import photoKennelFront from "@/assets/20250905_140259.jpg.asset.json";
-import photoKennelSide from "@/assets/20250905_140324.jpg.asset.json";
-import photoKennelInside from "@/assets/20250907_132251.jpg.asset.json";
+import photoFieldGate from "@/assets/20240510_141154.jpg.asset.json";
+import photoGardenFence from "@/assets/IMG-20220327-WA0017.jpg.asset.json";
+import photoChimney from "@/assets/IMG-20210603-WA0052.jpg.asset.json";
+import photoSolarNet from "@/assets/IMG-20221022-WA0004.jpg.asset.json";
+import photoSolarPanels from "@/assets/IMG-20220912-WA0001.jpg.asset.json";
 import logo from "@/assets/gps-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -69,11 +69,11 @@ const gallery = [
   { src: photoDriver.url, alt: "Tracked post driver knocking in a timber strainer post" },
   { src: photoMachine.url, alt: "Post driving machine working alongside a pole and temporary fencing" },
   { src: heroPanel.url, alt: "New arched-top close board fence panels in a garden" },
-  { src: photoRun.url, alt: "Long run of feather edge fence panels with concrete posts beside a field" },
-  { src: photoGate.url, alt: "Braced timber double gate in a stained close board fence" },
-  { src: photoKennelFront.url, alt: "Galvanised mesh kennel run with corrugated roof built against a wall" },
-  { src: photoKennelSide.url, alt: "Side view of a galvanised kennel run with double gates" },
-  { src: photoKennelInside.url, alt: "Inside of a kennel with ply lining and raised bed platform" },
+  { src: photoFieldGate.url, alt: "Five-bar timber field gate hung on a gravel driveway entrance" },
+  { src: photoGardenFence.url, alt: "New close board fence and round-top picket fence around a garden at sunset" },
+  { src: photoChimney.url, alt: "Chimney pot bird guard being fitted from a cherry picker" },
+  { src: photoSolarNet.url, alt: "Solar panel bird proofing mesh being installed on a roof" },
+  { src: photoSolarPanels.url, alt: "Solar panels protected with bird proofing mesh along the roof edge" },
 ];
 
 const counties = ["Essex", "Suffolk", "Norfolk"];
