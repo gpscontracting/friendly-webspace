@@ -4,11 +4,11 @@ import { QuoteForm } from "@/components/site/QuoteForm";
 import heroPanel from "@/assets/20250505_113833.jpg.asset.json";
 import photoDriver from "@/assets/20250917_085444.jpg.asset.json";
 import photoMachine from "@/assets/20240712_085607.jpg.asset.json";
-import photoRun from "@/assets/20250419_151726.jpg.asset.json";
-import photoGate from "@/assets/20250615_090219.jpg.asset.json";
-import photoKennelFront from "@/assets/20250905_140259.jpg.asset.json";
-import photoKennelSide from "@/assets/20250905_140324.jpg.asset.json";
-import photoKennelInside from "@/assets/20250907_132251.jpg.asset.json";
+import photoFieldGate from "@/assets/20240510_141154.jpg.asset.json";
+import photoGardenFence from "@/assets/IMG-20220327-WA0017.jpg.asset.json";
+import photoChimney from "@/assets/IMG-20210603-WA0052.jpg.asset.json";
+import photoSolarNet from "@/assets/IMG-20221022-WA0004.jpg.asset.json";
+import photoSolarPanels from "@/assets/IMG-20220912-WA0001.jpg.asset.json";
 import logo from "@/assets/gps-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
