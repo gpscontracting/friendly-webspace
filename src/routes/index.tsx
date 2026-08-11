@@ -66,10 +66,14 @@ const services = [
 ];
 
 const gallery = [
-  { src: workMachine, alt: "Tracked post driver installing timber fence posts in a field" },
-  { src: workStock, alt: "Stock fencing with timber strainer posts around a sheep paddock" },
-  { src: workDeer, alt: "Tall deer fencing installed along a woodland edge" },
-  { src: workBird, alt: "Bird netting and spikes fitted to an industrial building roofline" },
+  { src: photoDriver.url, alt: "Tracked post driver knocking in a timber strainer post" },
+  { src: photoMachine.url, alt: "Post driving machine working alongside a pole and temporary fencing" },
+  { src: heroPanel.url, alt: "New arched-top close board fence panels in a garden" },
+  { src: photoRun.url, alt: "Long run of feather edge fence panels with concrete posts beside a field" },
+  { src: photoGate.url, alt: "Braced timber double gate in a stained close board fence" },
+  { src: photoKennelFront.url, alt: "Galvanised mesh kennel run with corrugated roof built against a wall" },
+  { src: photoKennelSide.url, alt: "Side view of a galvanised kennel run with double gates" },
+  { src: photoKennelInside.url, alt: "Inside of a kennel with ply lining and raised bed platform" },
 ];
 
 const counties = ["Essex", "Suffolk", "Norfolk"];
