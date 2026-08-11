@@ -12,16 +12,16 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "GPS Contracting | Fencing Contractors in Suffolk, Essex & Norfolk",
+        title: "GPS Contracting | Fencing Contractors in Essex, Suffolk & Norfolk",
       },
       {
         name: "description",
         content:
-          "Professional fencing contractors covering Suffolk, Essex and Norfolk. Post & rail, stock and deer fencing, bird proofing and land management. Free quotes.",
+          "Professional fencing contractors covering Essex, Suffolk and Norfolk. Post & rail, stock and deer fencing, bird proofing and land management. Free quotes.",
       },
       {
         property: "og:title",
-        content: "GPS Contracting | Fencing Contractors in Suffolk, Essex & Norfolk",
+        content: "GPS Contracting | Fencing Contractors in Essex, Suffolk & Norfolk",
       },
       {
         property: "og:description",
@@ -69,7 +69,7 @@ const gallery = [
   { src: workBird, alt: "Bird netting and spikes fitted to an industrial building roofline" },
 ];
 
-const counties = ["Suffolk", "Essex", "Norfolk"];
+const counties = ["Essex", "Suffolk", "Norfolk"];
 
 function Index() {
   return (
@@ -88,7 +88,7 @@ function Index() {
         <div className="absolute inset-0 bg-background/75" />
         <div className="absolute inset-0 bg-linear-to-t from-background via-background/20 to-transparent" />
         <div className="relative mx-auto max-w-6xl px-5 py-24 sm:py-32">
-          <p className="eyebrow">Suffolk &middot; Essex &middot; Norfolk</p>
+          <p className="eyebrow">Essex &middot; Suffolk &middot; Norfolk</p>
           <h1 className="mt-4 max-w-3xl text-4xl leading-[0.95] sm:text-6xl">
             Fencing done <span className="text-primary">properly</span>, first time
           </h1>
@@ -216,7 +216,7 @@ function Index() {
             ))}
           </div>
           <p className="mt-5 max-w-2xl text-sm text-muted-foreground">
-            Based in Suffolk and working throughout Essex and Norfolk. Just outside the
+            Based in Essex and working throughout Suffolk and Norfolk. Just outside the
             patch? Ask anyway — larger jobs travel.
           </p>
         </div>
@@ -240,9 +240,9 @@ function Index() {
                 <dd>
                   <a
                     className="text-primary hover:underline"
-                    href="mailto:enquiries@gps-contracting.co.uk"
+                    href="mailto:enquiries@gps-contracting.com"
                   >
-                    enquiries@gps-contracting.co.uk
+                    enquiries@gps-contracting.com
                   </a>
                 </dd>
               </div>
@@ -278,7 +278,7 @@ function Index() {
           <p className="font-display tracking-[0.18em] text-foreground">
             GPS Contracting
           </p>
-          <p>Fencing &middot; Bird proofing &middot; Land management — Suffolk, Essex &amp; Norfolk</p>
+          <p>Fencing &middot; Bird proofing &middot; Land management — Essex, Suffolk &amp; Norfolk</p>
           <p>&copy; {new Date().getFullYear()} GPS Contracting. All rights reserved.</p>
         </div>
       </footer>
