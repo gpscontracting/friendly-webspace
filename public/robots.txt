@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://friendly-webspace.lovable.app/sitemap.xml
