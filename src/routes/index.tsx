@@ -1,11 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/site/Nav";
 import { QuoteForm } from "@/components/site/QuoteForm";
-import heroImg from "@/assets/hero-fence.jpg";
-import workStock from "@/assets/work-stock.jpg";
-import workDeer from "@/assets/work-deer.jpg";
-import workBird from "@/assets/work-bird.jpg";
-import workMachine from "@/assets/work-machine.jpg";
+import heroPanel from "@/assets/20250505_113833.jpg.asset.json";
+import photoDriver from "@/assets/20250917_085444.jpg.asset.json";
+import photoMachine from "@/assets/20240712_085607.jpg.asset.json";
+import photoRun from "@/assets/20250419_151726.jpg.asset.json";
+import photoGate from "@/assets/20250615_090219.jpg.asset.json";
+import photoKennelFront from "@/assets/20250905_140259.jpg.asset.json";
+import photoKennelSide from "@/assets/20250905_140324.jpg.asset.json";
+import photoKennelInside from "@/assets/20250907_132251.jpg.asset.json";
 import logo from "@/assets/gps-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
