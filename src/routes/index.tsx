@@ -58,6 +58,7 @@ const services = [
   {
     title: "Bird Proofing",
     body: "Netting, spikes and post-and-wire systems for barns, industrial units and commercial rooflines.",
+    link: "/bird-proofing",
   },
   {
     title: "Land Management",
