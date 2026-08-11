@@ -247,9 +247,9 @@ function Index() {
                 <dd>
                   <a
                     className="text-primary hover:underline"
-                    href="mailto:enquiries@gps-contracting.com"
+                    href="mailto:contracting@outlook.com"
                   >
-                    enquiries@gps-contracting.com
+                    contracting@outlook.com
                   </a>
                 </dd>
               </div>
