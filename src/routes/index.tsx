@@ -1,27 +1,30 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/site/Nav";
 import { QuoteForm } from "@/components/site/QuoteForm";
-import heroImg from "@/assets/hero-fence.jpg";
-import workStock from "@/assets/work-stock.jpg";
-import workDeer from "@/assets/work-deer.jpg";
-import workBird from "@/assets/work-bird.jpg";
-import workMachine from "@/assets/work-machine.jpg";
+import heroPanel from "@/assets/20250505_113833.jpg.asset.json";
+import photoDriver from "@/assets/20250917_085444.jpg.asset.json";
+import photoMachine from "@/assets/20240712_085607.jpg.asset.json";
+import photoRun from "@/assets/20250419_151726.jpg.asset.json";
+import photoGate from "@/assets/20250615_090219.jpg.asset.json";
+import photoKennelFront from "@/assets/20250905_140259.jpg.asset.json";
+import photoKennelSide from "@/assets/20250905_140324.jpg.asset.json";
+import photoKennelInside from "@/assets/20250907_132251.jpg.asset.json";
 import logo from "@/assets/gps-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "GPS Contracting | Fencing Contractors in Suffolk, Essex & Norfolk",
+        title: "GPS Contracting | Fencing Contractors in Essex, Suffolk & Norfolk",
       },
       {
         name: "description",
         content:
-          "Professional fencing contractors covering Suffolk, Essex and Norfolk. Post & rail, stock and deer fencing, bird proofing and land management. Free quotes.",
+          "Professional fencing contractors covering Essex, Suffolk and Norfolk. Post & rail, stock and deer fencing, bird proofing and land management. Free quotes.",
       },
       {
         property: "og:title",
-        content: "GPS Contracting | Fencing Contractors in Suffolk, Essex & Norfolk",
+        content: "GPS Contracting | Fencing Contractors in Essex, Suffolk & Norfolk",
       },
       {
         property: "og:description",
@@ -63,13 +66,17 @@ const services = [
 ];
 
 const gallery = [
-  { src: workMachine, alt: "Tracked post driver installing timber fence posts in a field" },
-  { src: workStock, alt: "Stock fencing with timber strainer posts around a sheep paddock" },
-  { src: workDeer, alt: "Tall deer fencing installed along a woodland edge" },
-  { src: workBird, alt: "Bird netting and spikes fitted to an industrial building roofline" },
+  { src: photoDriver.url, alt: "Tracked post driver knocking in a timber strainer post" },
+  { src: photoMachine.url, alt: "Post driving machine working alongside a pole and temporary fencing" },
+  { src: heroPanel.url, alt: "New arched-top close board fence panels in a garden" },
+  { src: photoRun.url, alt: "Long run of feather edge fence panels with concrete posts beside a field" },
+  { src: photoGate.url, alt: "Braced timber double gate in a stained close board fence" },
+  { src: photoKennelFront.url, alt: "Galvanised mesh kennel run with corrugated roof built against a wall" },
+  { src: photoKennelSide.url, alt: "Side view of a galvanised kennel run with double gates" },
+  { src: photoKennelInside.url, alt: "Inside of a kennel with ply lining and raised bed platform" },
 ];
 
-const counties = ["Suffolk", "Essex", "Norfolk"];
+const counties = ["Essex", "Suffolk", "Norfolk"];
 
 function Index() {
   return (
@@ -79,8 +86,8 @@ function Index() {
       {/* Hero */}
       <section className="relative isolate overflow-hidden">
         <img
-          src={heroImg}
-          alt="New timber post and rail fence across farmland at sunset"
+          src={heroPanel.url}
+          alt="New arched close board fence panels installed in an Essex garden"
           width={1920}
           height={1088}
           className="absolute inset-0 h-full w-full object-cover"
@@ -88,7 +95,7 @@ function Index() {
         <div className="absolute inset-0 bg-background/75" />
         <div className="absolute inset-0 bg-linear-to-t from-background via-background/20 to-transparent" />
         <div className="relative mx-auto max-w-6xl px-5 py-24 sm:py-32">
-          <p className="eyebrow">Suffolk &middot; Essex &middot; Norfolk</p>
+          <p className="eyebrow">Essex &middot; Suffolk &middot; Norfolk</p>
           <h1 className="mt-4 max-w-3xl text-4xl leading-[0.95] sm:text-6xl">
             Fencing done <span className="text-primary">properly</span>, first time
           </h1>
@@ -216,7 +223,7 @@ function Index() {
             ))}
           </div>
           <p className="mt-5 max-w-2xl text-sm text-muted-foreground">
-            Based in Suffolk and working throughout Essex and Norfolk. Just outside the
+            Based in Essex and working throughout Suffolk and Norfolk. Just outside the
             patch? Ask anyway — larger jobs travel.
           </p>
         </div>
@@ -240,9 +247,9 @@ function Index() {
                 <dd>
                   <a
                     className="text-primary hover:underline"
-                    href="mailto:enquiries@gps-contracting.co.uk"
+                    href="mailto:enquiries@gps-contracting.com"
                   >
-                    enquiries@gps-contracting.co.uk
+                    enquiries@gps-contracting.com
                   </a>
                 </dd>
               </div>
@@ -278,7 +285,7 @@ function Index() {
           <p className="font-display tracking-[0.18em] text-foreground">
             GPS Contracting
           </p>
-          <p>Fencing &middot; Bird proofing &middot; Land management — Suffolk, Essex &amp; Norfolk</p>
+          <p>Fencing &middot; Bird proofing &middot; Land management — Essex, Suffolk &amp; Norfolk</p>
           <p>&copy; {new Date().getFullYear()} GPS Contracting. All rights reserved.</p>
         </div>
       </footer>

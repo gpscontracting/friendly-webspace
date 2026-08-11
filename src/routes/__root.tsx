@@ -81,14 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Agricultural, domestic and commercial fencing, bird proofing and land management across Suffolk, Essex and Norfolk.",
+          "Agricultural, domestic and commercial fencing, bird proofing and land management across Essex, Suffolk and Norfolk.",
       },
       { name: "author", content: "GPS Contracting" },
       { property: "og:title", content: "GPS Contracting | Fencing Contractors" },
       {
         property: "og:description",
         content:
-          "Fencing, bird proofing and land management across Suffolk, Essex and Norfolk.",
+          "Fencing, bird proofing and land management across Essex, Suffolk and Norfolk.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

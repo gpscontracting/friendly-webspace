@@ -23,7 +23,7 @@ export function QuoteForm() {
       "",
       `${form.get("details")}`,
     ].join("\n");
-    window.location.href = `mailto:enquiries@gps-contracting.co.uk?subject=${encodeURIComponent(
+    window.location.href = `mailto:enquiries@gps-contracting.com?subject=${encodeURIComponent(
       "Fencing enquiry from website",
     )}&body=${encodeURIComponent(body)}`;
     setSent(true);
