@@ -86,8 +86,8 @@ function Index() {
       {/* Hero */}
       <section className="relative isolate overflow-hidden">
         <img
-          src={heroImg}
-          alt="New timber post and rail fence across farmland at sunset"
+          src={heroPanel.url}
+          alt="New arched close board fence panels installed in an Essex garden"
           width={1920}
           height={1088}
           className="absolute inset-0 h-full w-full object-cover"
