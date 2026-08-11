@@ -143,18 +143,29 @@ function Index() {
         <p className="eyebrow">Services</p>
         <h2 className="mt-3 text-3xl sm:text-4xl">Every line, every gateway</h2>
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((s) => (
-            <article
-              key={s.title}
-              className="surface-panel group rounded-sm p-6 transition-transform hover:-translate-y-1"
-            >
-              <div className="h-0.5 w-10 bg-grad-green" />
-              <h3 className="mt-4 text-lg">{s.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                {s.body}
-              </p>
-            </article>
-          ))}
+          {services.map((s) => {
+            const card = (
+              <article className="surface-panel group rounded-sm p-6 transition-transform hover:-translate-y-1">
+                <div className="h-0.5 w-10 bg-grad-green" />
+                <h3 className="mt-4 text-lg">{s.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  {s.body}
+                </p>
+                {s.link && (
+                  <p className="mt-4 text-sm font-medium text-primary">
+                    Learn more
+                  </p>
+                )}
+              </article>
+            );
+            return s.link ? (
+              <Link key={s.title} to={s.link} className="block">
+                {card}
+              </Link>
+            ) : (
+              <div key={s.title}>{card}</div>
+            );
+          })}
         </div>
       </section>
 
