@@ -173,6 +173,28 @@ function Index() {
         </div>
       </section>
 
+      {/* Video */}
+      <section id="video" className="mx-auto max-w-6xl px-5 pb-20">
+        <p className="eyebrow">In action</p>
+        <h2 className="mt-3 text-3xl sm:text-4xl">Watch the machine work</h2>
+        <p className="mt-4 max-w-2xl text-muted-foreground">
+          Machine-driven posts go in straighter and firmer than hand work — and a
+          whole lot faster across a long boundary.
+        </p>
+        <div className="mt-8 overflow-hidden rounded-sm border border-border shadow-hard">
+          <video
+            src={siteVideo.url}
+            poster={videoPoster.url}
+            controls
+            playsInline
+            preload="metadata"
+            className="aspect-video w-full bg-black object-cover"
+          >
+            Your browser does not support embedded video.
+          </video>
+        </div>
+      </section>
+
       {/* Work */}
       <section id="work" className="border-y border-border bg-card/50 py-20">
         <div className="mx-auto max-w-6xl px-5">
