@@ -9,6 +9,9 @@ import photoGardenFence from "@/assets/IMG-20220327-WA0017.jpg.asset.json";
 import photoChimney from "@/assets/IMG-20210603-WA0052.jpg.asset.json";
 import photoSolarNet from "@/assets/IMG-20221022-WA0004.jpg.asset.json";
 import photoSolarPanels from "@/assets/IMG-20220912-WA0001.jpg.asset.json";
+import photoHedgeLine from "@/assets/20220325_143459.jpg.asset.json";
+import siteVideo from "@/assets/gps-post-driving.mp4.asset.json";
+import videoPoster from "@/assets/gps-video-poster.jpg.asset.json";
 import logo from "@/assets/gps-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -69,6 +72,7 @@ const services = [
 const gallery = [
   { src: photoDriver.url, alt: "Tracked post driver knocking in a timber strainer post" },
   { src: photoMachine.url, alt: "Post driving machine working alongside a pole and temporary fencing" },
+  { src: photoHedgeLine.url, alt: "Tracked post driver installing a new timber post line along a field hedge" },
   { src: heroPanel.url, alt: "New arched-top close board fence panels in a garden" },
   { src: photoFieldGate.url, alt: "Five-bar timber field gate hung on a gravel driveway entrance" },
   { src: photoGardenFence.url, alt: "New close board fence and round-top picket fence around a garden at sunset" },
@@ -166,6 +170,28 @@ function Index() {
               <div key={s.title}>{card}</div>
             );
           })}
+        </div>
+      </section>
+
+      {/* Video */}
+      <section id="video" className="mx-auto max-w-6xl px-5 pb-20">
+        <p className="eyebrow">In action</p>
+        <h2 className="mt-3 text-3xl sm:text-4xl">Watch the machine work</h2>
+        <p className="mt-4 max-w-2xl text-muted-foreground">
+          Machine-driven posts go in straighter and firmer than hand work — and a
+          whole lot faster across a long boundary.
+        </p>
+        <div className="mt-8 overflow-hidden rounded-sm border border-border shadow-hard">
+          <video
+            src={siteVideo.url}
+            poster={videoPoster.url}
+            controls
+            playsInline
+            preload="metadata"
+            className="aspect-video w-full bg-black object-cover"
+          >
+            Your browser does not support embedded video.
+          </video>
         </div>
       </section>
 
