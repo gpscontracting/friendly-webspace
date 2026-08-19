@@ -72,6 +72,7 @@ const services = [
 const gallery = [
   { src: photoDriver.url, alt: "Tracked post driver knocking in a timber strainer post" },
   { src: photoMachine.url, alt: "Post driving machine working alongside a pole and temporary fencing" },
+  { src: photoHedgeLine.url, alt: "Tracked post driver installing a new timber post line along a field hedge" },
   { src: heroPanel.url, alt: "New arched-top close board fence panels in a garden" },
   { src: photoFieldGate.url, alt: "Five-bar timber field gate hung on a gravel driveway entrance" },
   { src: photoGardenFence.url, alt: "New close board fence and round-top picket fence around a garden at sunset" },
