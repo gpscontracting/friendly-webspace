@@ -9,6 +9,9 @@ import photoGardenFence from "@/assets/IMG-20220327-WA0017.jpg.asset.json";
 import photoChimney from "@/assets/IMG-20210603-WA0052.jpg.asset.json";
 import photoSolarNet from "@/assets/IMG-20221022-WA0004.jpg.asset.json";
 import photoSolarPanels from "@/assets/IMG-20220912-WA0001.jpg.asset.json";
+import photoHedgeLine from "@/assets/20220325_143459.jpg.asset.json";
+import siteVideo from "@/assets/gps-post-driving.mp4.asset.json";
+import videoPoster from "@/assets/gps-video-poster.jpg.asset.json";
 import logo from "@/assets/gps-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
