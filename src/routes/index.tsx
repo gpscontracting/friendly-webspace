@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Nav } from "@/components/site/Nav";
 import { QuoteForm } from "@/components/site/QuoteForm";
-import heroPanel from "@/assets/20250505_113833.jpg.asset.json";
+const heroPanel = { url: "/20250505_113833.jpg" };
 import photoDriver from "@/assets/20250917_085444.jpg.asset.json";
 import photoMachine from "@/assets/20240712_085607.jpg.asset.json";
 import photoFieldGate from "@/assets/20240510_141154.jpg.asset.json";
@@ -12,7 +12,7 @@ import photoSolarPanels from "@/assets/IMG-20220912-WA0001.jpg.asset.json";
 import photoHedgeLine from "@/assets/20220325_143459.jpg.asset.json";
 import siteVideo from "@/assets/gps-post-driving.mp4.asset.json";
 import videoPoster from "@/assets/gps-video-poster.jpg.asset.json";
-import logo from "@/assets/gps-logo.png.asset.json";
+const logo = { url: "/Logo.png" };
 
 export const Route = createFileRoute("/")({
   head: () => ({
